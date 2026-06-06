@@ -647,7 +647,14 @@
   "repositories": [
     {
       "name": "CRAN",
-      "url": "https://cran.r-project.org"
+      "url": "https://packagemanager.posit.co/cran/latest"
     }
-  ]
+  ],
+  "metadata": {
+    "appmode": "shiny",
+    "primary_rmd": null,
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  }
 }
