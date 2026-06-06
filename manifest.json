@@ -1,0 +1,520 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "platform": "4.5.2",
+  "packages": {
+    "DBI": {
+      "Version": "1.3.0",
+      "Source": "Repository"
+    },
+    "DT": {
+      "Version": "0.34.0",
+      "Source": "Repository"
+    },
+    "R6": {
+      "Version": "2.6.1",
+      "Source": "Repository"
+    },
+    "RColorBrewer": {
+      "Version": "1.1-3",
+      "Source": "Repository"
+    },
+    "Rcpp": {
+      "Version": "1.1.1-1",
+      "Source": "Repository"
+    },
+    "S7": {
+      "Version": "0.2.1-1",
+      "Source": "Repository"
+    },
+    "askpass": {
+      "Version": "1.2.1",
+      "Source": "Repository"
+    },
+    "backports": {
+      "Version": "1.5.1",
+      "Source": "Repository"
+    },
+    "base64enc": {
+      "Version": "0.1-6",
+      "Source": "Repository"
+    },
+    "bit": {
+      "Version": "4.6.0",
+      "Source": "Repository"
+    },
+    "bit64": {
+      "Version": "4.8.0",
+      "Source": "Repository"
+    },
+    "blob": {
+      "Version": "1.3.0",
+      "Source": "Repository"
+    },
+    "broom": {
+      "Version": "1.0.12",
+      "Source": "Repository"
+    },
+    "bslib": {
+      "Version": "0.10.0",
+      "Source": "Repository"
+    },
+    "cachem": {
+      "Version": "1.1.0",
+      "Source": "Repository"
+    },
+    "callr": {
+      "Version": "3.7.6",
+      "Source": "Repository"
+    },
+    "cellranger": {
+      "Version": "1.1.0",
+      "Source": "Repository"
+    },
+    "cli": {
+      "Version": "3.6.6",
+      "Source": "Repository"
+    },
+    "clipr": {
+      "Version": "0.8.0",
+      "Source": "Repository"
+    },
+    "commonmark": {
+      "Version": "2.0.0",
+      "Source": "Repository"
+    },
+    "conflicted": {
+      "Version": "1.2.0",
+      "Source": "Repository"
+    },
+    "cpp11": {
+      "Version": "0.5.4",
+      "Source": "Repository"
+    },
+    "crayon": {
+      "Version": "1.5.3",
+      "Source": "Repository"
+    },
+    "crosstalk": {
+      "Version": "1.2.2",
+      "Source": "Repository"
+    },
+    "curl": {
+      "Version": "7.1.0",
+      "Source": "Repository"
+    },
+    "data.table": {
+      "Version": "1.18.2.1",
+      "Source": "Repository"
+    },
+    "dbplyr": {
+      "Version": "2.5.2",
+      "Source": "Repository"
+    },
+    "digest": {
+      "Version": "0.6.39",
+      "Source": "Repository"
+    },
+    "dplyr": {
+      "Version": "1.2.1",
+      "Source": "Repository"
+    },
+    "dtplyr": {
+      "Version": "1.3.3",
+      "Source": "Repository"
+    },
+    "evaluate": {
+      "Version": "1.0.5",
+      "Source": "Repository"
+    },
+    "farver": {
+      "Version": "2.1.2",
+      "Source": "Repository"
+    },
+    "fastmap": {
+      "Version": "1.2.0",
+      "Source": "Repository"
+    },
+    "fontawesome": {
+      "Version": "0.5.3",
+      "Source": "Repository"
+    },
+    "forcats": {
+      "Version": "1.0.1",
+      "Source": "Repository"
+    },
+    "fs": {
+      "Version": "2.1.0",
+      "Source": "Repository"
+    },
+    "gargle": {
+      "Version": "1.6.1",
+      "Source": "Repository"
+    },
+    "generics": {
+      "Version": "0.1.4",
+      "Source": "Repository"
+    },
+    "ggplot2": {
+      "Version": "4.0.2",
+      "Source": "Repository"
+    },
+    "ggtext": {
+      "Version": "0.1.2",
+      "Source": "Repository"
+    },
+    "glue": {
+      "Version": "1.8.1",
+      "Source": "Repository"
+    },
+    "googledrive": {
+      "Version": "2.1.2",
+      "Source": "Repository"
+    },
+    "googlesheets4": {
+      "Version": "1.1.2",
+      "Source": "Repository"
+    },
+    "gridtext": {
+      "Version": "0.1.6",
+      "Source": "Repository"
+    },
+    "gtable": {
+      "Version": "0.3.6",
+      "Source": "Repository"
+    },
+    "haven": {
+      "Version": "2.5.5",
+      "Source": "Repository"
+    },
+    "here": {
+      "Version": "1.0.2",
+      "Source": "Repository"
+    },
+    "highr": {
+      "Version": "0.12",
+      "Source": "Repository"
+    },
+    "hms": {
+      "Version": "1.1.4",
+      "Source": "Repository"
+    },
+    "htmltools": {
+      "Version": "0.5.9",
+      "Source": "Repository"
+    },
+    "htmlwidgets": {
+      "Version": "1.6.4",
+      "Source": "Repository"
+    },
+    "httpuv": {
+      "Version": "1.6.17",
+      "Source": "Repository"
+    },
+    "httr": {
+      "Version": "1.4.8",
+      "Source": "Repository"
+    },
+    "ids": {
+      "Version": "1.0.1",
+      "Source": "Repository"
+    },
+    "isoband": {
+      "Version": "0.3.0",
+      "Source": "Repository"
+    },
+    "janitor": {
+      "Version": "2.2.1",
+      "Source": "Repository"
+    },
+    "jpeg": {
+      "Version": "0.1-11",
+      "Source": "Repository"
+    },
+    "jquerylib": {
+      "Version": "0.1.4",
+      "Source": "Repository"
+    },
+    "jsonlite": {
+      "Version": "2.0.0",
+      "Source": "Repository"
+    },
+    "kableExtra": {
+      "Version": "1.4.0",
+      "Source": "Repository"
+    },
+    "knitr": {
+      "Version": "1.51",
+      "Source": "Repository"
+    },
+    "labeling": {
+      "Version": "0.4.3",
+      "Source": "Repository"
+    },
+    "later": {
+      "Version": "1.4.8",
+      "Source": "Repository"
+    },
+    "lazyeval": {
+      "Version": "0.2.3",
+      "Source": "Repository"
+    },
+    "lifecycle": {
+      "Version": "1.0.5",
+      "Source": "Repository"
+    },
+    "litedown": {
+      "Version": "0.9",
+      "Source": "Repository"
+    },
+    "lubridate": {
+      "Version": "1.9.5",
+      "Source": "Repository"
+    },
+    "magrittr": {
+      "Version": "2.0.5",
+      "Source": "Repository"
+    },
+    "markdown": {
+      "Version": "2.0",
+      "Source": "Repository"
+    },
+    "memoise": {
+      "Version": "2.0.1",
+      "Source": "Repository"
+    },
+    "mime": {
+      "Version": "0.13",
+      "Source": "Repository"
+    },
+    "modelr": {
+      "Version": "0.1.11",
+      "Source": "Repository"
+    },
+    "openssl": {
+      "Version": "2.4.0",
+      "Source": "Repository"
+    },
+    "otel": {
+      "Version": "0.2.0",
+      "Source": "Repository"
+    },
+    "patchwork": {
+      "Version": "1.3.2",
+      "Source": "Repository"
+    },
+    "pillar": {
+      "Version": "1.11.1",
+      "Source": "Repository"
+    },
+    "pkgconfig": {
+      "Version": "2.0.3",
+      "Source": "Repository"
+    },
+    "plotly": {
+      "Version": "4.12.0",
+      "Source": "Repository"
+    },
+    "png": {
+      "Version": "0.1-9",
+      "Source": "Repository"
+    },
+    "prettyunits": {
+      "Version": "1.2.0",
+      "Source": "Repository"
+    },
+    "processx": {
+      "Version": "3.9.0",
+      "Source": "Repository"
+    },
+    "progress": {
+      "Version": "1.2.3",
+      "Source": "Repository"
+    },
+    "promises": {
+      "Version": "1.5.0",
+      "Source": "Repository"
+    },
+    "ps": {
+      "Version": "1.9.3",
+      "Source": "Repository"
+    },
+    "purrr": {
+      "Version": "1.2.2",
+      "Source": "Repository"
+    },
+    "ragg": {
+      "Version": "1.5.2",
+      "Source": "Repository"
+    },
+    "rappdirs": {
+      "Version": "0.3.4",
+      "Source": "Repository"
+    },
+    "readr": {
+      "Version": "2.2.0",
+      "Source": "Repository"
+    },
+    "readxl": {
+      "Version": "1.4.5",
+      "Source": "Repository"
+    },
+    "rematch": {
+      "Version": "2.0.0",
+      "Source": "Repository"
+    },
+    "rematch2": {
+      "Version": "2.1.2",
+      "Source": "Repository"
+    },
+    "renv": {
+      "Version": "1.2.2",
+      "Source": "Repository"
+    },
+    "reprex": {
+      "Version": "2.1.1",
+      "Source": "Repository"
+    },
+    "rlang": {
+      "Version": "1.2.0",
+      "Source": "Repository"
+    },
+    "rmarkdown": {
+      "Version": "2.31",
+      "Source": "Repository"
+    },
+    "rprojroot": {
+      "Version": "2.1.1",
+      "Source": "Repository"
+    },
+    "rstudioapi": {
+      "Version": "0.18.0",
+      "Source": "Repository"
+    },
+    "rvest": {
+      "Version": "1.0.5",
+      "Source": "Repository"
+    },
+    "sass": {
+      "Version": "0.4.10",
+      "Source": "Repository"
+    },
+    "scales": {
+      "Version": "1.4.0",
+      "Source": "Repository"
+    },
+    "selectr": {
+      "Version": "0.5-1",
+      "Source": "Repository"
+    },
+    "shiny": {
+      "Version": "1.13.0",
+      "Source": "Repository"
+    },
+    "snakecase": {
+      "Version": "0.11.1",
+      "Source": "Repository"
+    },
+    "sourcetools": {
+      "Version": "0.1.7-2",
+      "Source": "Repository"
+    },
+    "stringi": {
+      "Version": "1.8.7",
+      "Source": "Repository"
+    },
+    "stringr": {
+      "Version": "1.6.0",
+      "Source": "Repository"
+    },
+    "svglite": {
+      "Version": "2.2.2",
+      "Source": "Repository"
+    },
+    "sys": {
+      "Version": "3.4.3",
+      "Source": "Repository"
+    },
+    "systemfonts": {
+      "Version": "1.3.2",
+      "Source": "Repository"
+    },
+    "textshaping": {
+      "Version": "1.0.5",
+      "Source": "Repository"
+    },
+    "tibble": {
+      "Version": "3.3.1",
+      "Source": "Repository"
+    },
+    "tidyr": {
+      "Version": "1.3.2",
+      "Source": "Repository"
+    },
+    "tidyselect": {
+      "Version": "1.2.1",
+      "Source": "Repository"
+    },
+    "tidyverse": {
+      "Version": "2.0.0",
+      "Source": "Repository"
+    },
+    "timechange": {
+      "Version": "0.4.0",
+      "Source": "Repository"
+    },
+    "tinytex": {
+      "Version": "0.59",
+      "Source": "Repository"
+    },
+    "tzdb": {
+      "Version": "0.5.0",
+      "Source": "Repository"
+    },
+    "utf8": {
+      "Version": "1.2.6",
+      "Source": "Repository"
+    },
+    "uuid": {
+      "Version": "1.2-2",
+      "Source": "Repository"
+    },
+    "vctrs": {
+      "Version": "0.7.3",
+      "Source": "Repository"
+    },
+    "viridisLite": {
+      "Version": "0.4.3",
+      "Source": "Repository"
+    },
+    "vroom": {
+      "Version": "1.7.1",
+      "Source": "Repository"
+    },
+    "withr": {
+      "Version": "3.0.2",
+      "Source": "Repository"
+    },
+    "xfun": {
+      "Version": "0.57",
+      "Source": "Repository"
+    },
+    "xml2": {
+      "Version": "1.5.2",
+      "Source": "Repository"
+    },
+    "xtable": {
+      "Version": "1.8-8",
+      "Source": "Repository"
+    },
+    "yaml": {
+      "Version": "2.3.12",
+      "Source": "Repository"
+    }
+  },
+  "files": {
+    "app.R": {
+      "checksum": ""
+    }
+  }
+}
