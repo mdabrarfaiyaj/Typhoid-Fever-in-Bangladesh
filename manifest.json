@@ -643,5 +643,11 @@
     "app.R": {
       "checksum": ""
     }
-  }
+  },
+  "repositories": [
+    {
+      "name": "CRAN",
+      "url": "https://cran.r-project.org"
+    }
+  ]
 }
