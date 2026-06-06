@@ -1,660 +1,112 @@
 {
   "version": 1,
-  "locale": "en_US.UTF-8",
+  "locale": "en_US",
+  "platform": "4.5.2",
   "metadata": {
-    "appmode": "shiny",
+    "appmode": "static",
     "primary_rmd": null,
-    "primary_html": null,
+    "primary_html": "analysis/report.html",
     "content_category": null,
     "has_parameters": false
   },
-  "platform": "4.5.2",
-  "repositories": [
-    {
-      "name": "CRAN",
-      "url": "https://packagemanager.posit.co/cran/latest"
-    }
-  ],
-  "packages": {
-    "DBI": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.3.0"
+  "packages": null,
+  "files": {
+    ".RData": {
+      "checksum": "c36d879ae088d109fff9d2d166eee105"
     },
-    "DT": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.34.0"
+    ".Rprofile": {
+      "checksum": "4d65344bfa0b83b6057b35f9b88a6f48"
     },
-    "R6": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.6.1"
+    "analysis/report.html": {
+      "checksum": "7b5775d452f327c96af38ddb23c90957"
     },
-    "RColorBrewer": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.1-3"
+    "analysis/report.qmd": {
+      "checksum": "9252808a458704909b19ff0747cb0fb9"
     },
-    "Rcpp": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.1.1-1"
+    "data/processed/bangladesh_amr.csv": {
+      "checksum": "a70e5b86e957e60375a8aa4ed374bf9b"
     },
-    "S7": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.2.1-1"
+    "data/processed/bangladesh_amr.rds": {
+      "checksum": "a7b88e03f8e6f6bf300629cd558a275a"
     },
-    "askpass": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.1"
+    "data/processed/bd_genomic.csv": {
+      "checksum": "8036d02e52c616764574c948ddac754d"
     },
-    "backports": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.5.1"
+    "data/processed/bd_genomic.rds": {
+      "checksum": "1c81e74a13a43a60cb75b9edefbaf47d"
     },
-    "base64enc": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.1-6"
+    "data/processed/sa_genomic.csv": {
+      "checksum": "8fcaed4148434f0450331ba3a0ac0c77"
     },
-    "bit": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "4.6.0"
+    "data/processed/sa_genomic.rds": {
+      "checksum": "b64f2b7bfc3e6ed605f7e746f8da6b0f"
     },
-    "bit64": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "4.8.0"
+    "data/processed/typhinet_global.rds": {
+      "checksum": "7f15bda02aac17f6ff60742b2548fd49"
     },
-    "blob": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.3.0"
+    "data/raw/tanmoy2024_suppS1.xlsx": {
+      "checksum": "564cacf0d27b9602f9fe83504770216e"
     },
-    "broom": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.0.12"
+    "data/raw/TyphiNET-database.csv": {
+      "checksum": "cc9c368b97c44ad69ef63b04160f965c"
     },
-    "bslib": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.10.0"
+    "docs/index.html": {
+      "checksum": "7b5775d452f327c96af38ddb23c90957"
     },
-    "cachem": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.1.0"
+    "figures/fig1_amr_trends.png": {
+      "checksum": "4648d267139959ac10435597a469821e"
     },
-    "callr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "3.7.6"
+    "figures/fig2_drug_class_divergence.png": {
+      "checksum": "93dd4a1f0303001015de75cd3012ab0d"
     },
-    "cellranger": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.1.0"
+    "figures/fig3_period_summary.png": {
+      "checksum": "8ca844e63830ef897f401088545decf1"
     },
-    "cli": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "3.6.6"
+    "figures/fig4_south_asia_genomic.png": {
+      "checksum": "12213f675822274745dce213960fb3f3"
     },
-    "clipr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.8.0"
+    "figures/fig5_genomic_mechanism.png": {
+      "checksum": "07c603e815e6c7decd61d2b319ccfe8f"
     },
-    "commonmark": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.0.0"
+    "README.md": {
+      "checksum": "9f6369673758dc468e58aaec96a76286"
     },
-    "conflicted": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.0"
+    "renv.lock": {
+      "checksum": "a05bbcafa9c1b2a233c3f726b6275107"
     },
-    "cpp11": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.5.4"
+    "results/bd_genomic_summary.csv": {
+      "checksum": "43425571ddc79160664c431f0a33c2c7"
     },
-    "crayon": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.5.3"
+    "results/period_summary.csv": {
+      "checksum": "a97bb8fbbc9886705d1c31ebb0a64291"
     },
-    "crosstalk": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.2"
+    "results/trend_regression.csv": {
+      "checksum": "27285a5bd76329b2ba2f2a1676a4205f"
     },
-    "curl": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "7.1.0"
+    "scripts/.RData": {
+      "checksum": "40ca436743ea9ff9200f305ae11262d8"
     },
-    "data.table": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.18.2.1"
+    "scripts/00_install_packages.R": {
+      "checksum": "6d75c6fe1303c1753fbe02082d6017df"
     },
-    "dbplyr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.5.2"
+    "scripts/01_data_prep.R": {
+      "checksum": "95f8512a8b464c1523874adf2e1ee335"
     },
-    "digest": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.6.39"
+    "scripts/02_temporal_analysis.R": {
+      "checksum": "089c9aeb12171e8da19470b02e2d270b"
     },
-    "dplyr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.1"
+    "scripts/03_visualizations.R": {
+      "checksum": "06ea4cec7a1099f955b5aae4ab1f2f92"
     },
-    "dtplyr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.3.3"
+    "scripts/04_global_context.R": {
+      "checksum": "2c37199e944446c6b53076f9d3497c41"
     },
-    "evaluate": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.0.5"
+    "shiny/app.R": {
+      "checksum": "ecd90888e511f132bd754f8db462f195"
     },
-    "farver": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.1.2"
-    },
-    "fastmap": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.0"
-    },
-    "fontawesome": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.5.3"
-    },
-    "forcats": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.0.1"
-    },
-    "fs": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.1.0"
-    },
-    "gargle": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.6.1"
-    },
-    "generics": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.1.4"
-    },
-    "ggplot2": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "4.0.2"
-    },
-    "ggtext": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.1.2"
-    },
-    "glue": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.8.1"
-    },
-    "googledrive": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.1.2"
-    },
-    "googlesheets4": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.1.2"
-    },
-    "gridtext": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.1.6"
-    },
-    "gtable": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.3.6"
-    },
-    "haven": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.5.5"
-    },
-    "here": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.0.2"
-    },
-    "highr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.12"
-    },
-    "hms": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.1.4"
-    },
-    "htmltools": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.5.9"
-    },
-    "htmlwidgets": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.6.4"
-    },
-    "httpuv": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.6.17"
-    },
-    "httr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.4.8"
-    },
-    "ids": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.0.1"
-    },
-    "isoband": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.3.0"
-    },
-    "janitor": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.2.1"
-    },
-    "jpeg": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.1-11"
-    },
-    "jquerylib": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.1.4"
-    },
-    "jsonlite": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.0.0"
-    },
-    "kableExtra": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.4.0"
-    },
-    "knitr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.51"
-    },
-    "labeling": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.4.3"
-    },
-    "later": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.4.8"
-    },
-    "lazyeval": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.2.3"
-    },
-    "lifecycle": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.0.5"
-    },
-    "litedown": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.9"
-    },
-    "lubridate": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.9.5"
-    },
-    "magrittr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.0.5"
-    },
-    "markdown": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.0"
-    },
-    "memoise": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.0.1"
-    },
-    "mime": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.13"
-    },
-    "modelr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.1.11"
-    },
-    "openssl": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.4.0"
-    },
-    "otel": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.2.0"
-    },
-    "patchwork": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.3.2"
-    },
-    "pillar": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.11.1"
-    },
-    "pkgconfig": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.0.3"
-    },
-    "plotly": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "4.12.0"
-    },
-    "png": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.1-9"
-    },
-    "prettyunits": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.0"
-    },
-    "processx": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "3.9.0"
-    },
-    "progress": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.3"
-    },
-    "promises": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.5.0"
-    },
-    "ps": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.9.3"
-    },
-    "purrr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.2"
-    },
-    "ragg": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.5.2"
-    },
-    "rappdirs": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.3.4"
-    },
-    "readr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.2.0"
-    },
-    "readxl": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.4.5"
-    },
-    "rematch": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.0.0"
-    },
-    "rematch2": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.1.2"
-    },
-    "renv": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.2"
-    },
-    "reprex": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.1.1"
-    },
-    "rlang": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.0"
-    },
-    "rmarkdown": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.31"
-    },
-    "rprojroot": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.1.1"
-    },
-    "rstudioapi": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.18.0"
-    },
-    "rvest": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.0.5"
-    },
-    "sass": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.4.10"
-    },
-    "scales": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.4.0"
-    },
-    "selectr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.5-1"
-    },
-    "shiny": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.13.0"
-    },
-    "snakecase": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.11.1"
-    },
-    "sourcetools": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.1.7-2"
-    },
-    "stringi": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.8.7"
-    },
-    "stringr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.6.0"
-    },
-    "svglite": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.2.2"
-    },
-    "sys": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "3.4.3"
-    },
-    "systemfonts": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.3.2"
-    },
-    "textshaping": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.0.5"
-    },
-    "tibble": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "3.3.1"
-    },
-    "tidyr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.3.2"
-    },
-    "tidyselect": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.1"
-    },
-    "tidyverse": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.0.0"
-    },
-    "timechange": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.4.0"
-    },
-    "tinytex": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.59"
-    },
-    "tzdb": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.5.0"
-    },
-    "utf8": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2.6"
-    },
-    "uuid": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.2-2"
-    },
-    "vctrs": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.7.3"
-    },
-    "viridisLite": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.4.3"
-    },
-    "vroom": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.7.1"
-    },
-    "withr": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "3.0.2"
-    },
-    "xfun": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "0.57"
-    },
-    "xml2": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.5.2"
-    },
-    "xtable": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "1.8-8"
-    },
-    "yaml": {
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/latest",
-      "Version": "2.3.12"
+    "training_notes.md": {
+      "checksum": "cb233e45c100799c3ff2b718e3a2ad14"
     }
   },
-  "files": {
-    "app.R": {
-      "checksum": ""
-    }
-  }
+  "users": null
 }
