@@ -186,7 +186,7 @@ are concerning signals for the future.
 This project reproduces Tanmoy et al. (2024) and adds genomic context to
 better understand the molecular drivers behind the observed resistance patterns.
 
-**Repository:** [GitHub](https://github.com/mdabrarfaiyaj/Typoid-Fever-in-Bangladesh)
+**Repository:** [GitHub](https://github.com/mdabrarfaiyaj/Typhoid-Fever-in-Bangladesh)
 "))
   )
 )

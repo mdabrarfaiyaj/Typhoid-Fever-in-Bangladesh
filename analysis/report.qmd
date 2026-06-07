@@ -230,9 +230,9 @@ this repository is the scientific argument that informed that decision.
 ## Reproducibility
 
 Full code, renv lockfile, and training notes:
-`https://github.com/mdabrarfaiyaj/Typoid-Fever-in-Bangladesh`
+`https://github.com/mdabrarfaiyaj/Typhoid-Fever-in-Bangladesh`
 
-Live report: `https://mdabrarfaiyaj.github.io/Typoid-Fever-in-Bangladesh`
+Live report: `https://mdabrarfaiyaj.github.io/Typhoid-Fever-in-Bangladesh`
 
 Interactive dashboard: `YOUR_SHINYAPPS_URL`
 

@@ -1,7 +1,7 @@
 # Antimicrobial Resistance Trends in *Salmonella* Typhi, Bangladesh (1999–2022)
 
 [![R](https://img.shields.io/badge/R-4.3+-276DC3?logo=r)](https://www.r-project.org/)
-[![Quarto](https://img.shields.io/badge/Report-Quarto-blue)](https://mdabrarfaiyaj.github.io/Typoid-Fever-in-Bangladesh/)
+[![Quarto](https://img.shields.io/badge/Report-Quarto-blue)](https://mdabrarfaiyaj.github.io/Typhoid-Fever-in-Bangladesh/)
 [![Shiny](https://img.shields.io/badge/Dashboard-shinyapps.io-orange)](https://u3j9z9-md0abrar-faiyaj.shinyapps.io/typhoid-amr-bangladesh/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -162,7 +162,7 @@ Save as `data/raw/TyphiNET-database.csv`.
 ## Repository Structure
 
 ```
-Typoid-Fever-in-Bangladesh/
+Typhoid-Fever-in-Bangladesh/
 ├── data/
 │   ├── raw/                      ← Downloaded files (not committed to git)
 │   └── processed/                ← Generated .rds and .csv files
@@ -193,7 +193,7 @@ Typoid-Fever-in-Bangladesh/
 | Resource | Link |
 |----------|------|
 | Interactive Dashboard | [shinyapps.io](https://u3j9z9-md0abrar-faiyaj.shinyapps.io/typhoid-amr-bangladesh/) |
-| Full Quarto Report | [GitHub Pages](https://mdabrarfaiyaj.github.io/Typoid-Fever-in-Bangladesh/) |
+| Full Quarto Report | [GitHub Pages](https://mdabrarfaiyaj.github.io/Typhoid-Fever-in-Bangladesh/) |
 | Primary Data | [Tanmoy et al. 2024, PLOS NTDs](https://doi.org/10.1371/journal.pntd.0012558) |
 | Genomic Data | [TyphiNET Database](https://www.typhi.net/) |
 
