@@ -248,14 +248,20 @@ If an analysis cannot be reproduced:
 
 ## References
 
-1. Tanmoy AM et al. (2024). PLOS NTDs 18(10): e0012558.
+1. Tanmoy AM, Hooda Y, Sajib MSI et al. (2024). Trends in antimicrobial resistance
+   amongst *Salmonella* Typhi in Bangladesh: A 24-year retrospective observational
+   study (1999–2022). *PLOS Neglected Tropical Diseases* 18(10): e0012558.
    https://doi.org/10.1371/journal.pntd.0012558
 
-2. TyphiNET Database. Wellcome Sanger Institute.
-   https://www.typhinet.org
+2. TyphiNET Database. Wellcome Sanger Institute and global collaborators.
+   Whole-genome sequencing surveillance of *Salmonella* Typhi.
+   https://www.typhi.net/
 
-3. Tanmoy AM et al. (2018). mBio 9(6): e02112-18.
+3. Tanmoy AM et al. (2018). *Salmonella enterica* Serovar Typhi in Bangladesh: Exploration of Genomic Diversity and Antimicrobial Resistance. 
+   *mBio* 9:10.1128/mbio.02112-18. https://doi.org/10.1128/mbio.02112-18
 
-4. Government of Bangladesh, UNICEF, Gavi, WHO (2025).
-   Bangladesh launches nationwide TCV campaign — 50 million children.
-   Launch date: 12 October 2025.
+4. Government of Bangladesh, UNICEF, Gavi, WHO (2025). Bangladesh launches
+   nationwide Typhoid Conjugate Vaccine campaign to protect 50 million children.
+   Campaign launch: 12 October 2025. 
+   https://www.unicef.org/bangladesh/en/press-releases/bangladesh-launches-nationwide-typhoid-conjugate-vaccine-campaign-protect-50-million
+
