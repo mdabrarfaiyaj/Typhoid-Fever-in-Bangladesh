@@ -1,0 +1,17 @@
+# R session files
+.RData
+.Rhistory
+*.RData
+*.Rhistory
+
+# renv compiled library (platform-specific, not portable)
+renv/library/
+
+# Raw data (too large, downloaded separately)
+data/raw/
+
+# Windows metadata
+*.Zone.Identifier
+
+# R temp files
+*.Rproj.user
