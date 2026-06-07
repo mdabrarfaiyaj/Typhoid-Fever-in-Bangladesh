@@ -1,8 +1,8 @@
 # Antimicrobial Resistance Trends in *Salmonella* Typhi, Bangladesh (1999–2022)
 
 [![R](https://img.shields.io/badge/R-4.3+-276DC3?logo=r)](https://www.r-project.org/)
-[![Quarto](https://img.shields.io/badge/Report-Quarto-blue)](https://mdabrarfaiyaj.github.io/Typhoid-Fever-in-Bangladesh/)
-[![Shiny](https://img.shields.io/badge/Dashboard-shinyapps.io-orange)](https://u3j9z9-md0abrar-faiyaj.shinyapps.io/typhoid-amr-bangladesh/)
+[![Quarto](https://img.shields.io/badge/Report-Quarto-blue)](YOUR_GITHUB_PAGES_URL)
+[![Shiny](https://img.shields.io/badge/Dashboard-Posit%20Cloud-orange)](YOUR_POSIT_CLOUD_URL)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ---
@@ -43,8 +43,8 @@ today. If they fail, there is no next line.
 
 | Layer | Source | Scale |
 |-------|--------|-------|
-| Phenotypic | [Tanmoy AM et al. (2024). *PLOS NTDs* 18(10): e0012558](https://doi.org/10.1371/journal.pntd.0012558) — Supplementary Data S1: raw isolate-level R/S/I data, Dhaka, 1999–2022 | 12,435 isolates |
-| Genomic | [TyphiNET Database](https://www.typhi.net/) — Dashboard-quality WGS isolates; genotype, gyrA/parC/acrB mutations, CipNS/CipR/XDR classification | 1,664 Bangladesh WGS isolates |
+| **Phenotypic** | [Tanmoy AM et al. (2024). *PLOS NTDs* 18(10): e0012558](https://doi.org/10.1371/journal.pntd.0012558) — Supplementary Data S1: raw isolate-level R/S/I data, Dhaka, 1999–2022 | 12,435 isolates |
+| **Genomic** | [TyphiNET Database](https://www.typhinet.org) — Dashboard-quality WGS isolates; genotype, gyrA/parC/acrB mutations, CipNS/CipR/XDR classification | 1,664 Bangladesh WGS isolates |
 
 Both datasets are publicly available. No data is simulated or synthetic.
 
@@ -53,51 +53,28 @@ Both datasets are publicly available. No data is simulated or synthetic.
 ## Key Findings
 
 ### Figure 1 — The central paradox
-
-![Figure 1: AMR trends in S. Typhi, Bangladesh 1999–2022](figures/fig1_amr_trends.png)
-
 MDR declined from 38% (1999) to 17% (2022). Yet ciprofloxacin non-susceptibility
 sat above 90% for the **entire 24-year period** without meaningful movement.
 The MDR decline is real — but it reflects reduced use of drugs that were
 already failing. The drugs that replaced them are now under the same pressure.
 
----
-
 ### Figure 2 — Two diverging trajectories
-
-![Figure 2: Classical vs modern antibiotic resistance divergence](figures/fig2_drug_class_divergence.png)
-
 First-line antibiotics (ampicillin, chloramphenicol, cotrimoxazole) show
 declining resistance. Second and third-line antibiotics (ciprofloxacin,
 ceftriaxone, azithromycin) show flat or rising resistance. The problem
 has not been solved — it has been transferred forward.
 
----
-
 ### Figure 3 — AMR by surveillance era
-
-![Figure 3: Mean resistance rates per 5-year surveillance period](figures/fig3_period_summary.png)
-
 Period-level summaries confirm the trajectory: MDR bars shrink across eras,
 cipro non-susceptibility bars remain uniformly tall, azithromycin resistance
 shows the steepest relative growth in 2019–2022.
 
----
-
 ### Figure 4 — South Asia: Bangladesh has 0% XDR. Pakistan has 35.4%.
-
-![Figure 4: South Asia genomic AMR comparison (TyphiNET)](figures/fig4_south_asia_genomic.png)
-
 TyphiNET genomic data. Pakistan's XDR outbreak (2016–2019) arose from exactly
 the resistance accumulation trajectory Bangladesh is currently on.
 Bangladesh is at the inflection point — not past it.
 
----
-
 ### Figure 5 — The molecular mechanism
-
-![Figure 5: CipR escalation and gyrA mutation landscape (TyphiNET Bangladesh)](figures/fig5_genomic_mechanism.png)
-
 gyrA S83F alone is present in **78% of all Bangladesh WGS isolates** — a single
 mutation that has swept through the *S.* Typhi population and explains the
 near-universal ciprofloxacin non-susceptibility in culture. Full CipR (requiring
@@ -117,7 +94,7 @@ eras (1999–2004, 2005–2009, 2010–2014, 2015–2018, 2019–2022).
 **Genomic validation:** TyphiNET "Include" filter applied. CipNS/CipR trends
 by year. gyrA/parC/acrB mutation prevalence. South Asia XDR comparison.
 
-All analysis in R 4.3 · tidyverse · reproducible via renv.
+All analysis in R ≥ 4.3 · tidyverse · reproducible via renv.
 
 ---
 
@@ -130,7 +107,7 @@ source("scripts/00_install_packages.R")
 # 2. Place data files in data/raw/ — see Data Download below
 
 # 3. Process data
-source("scripts/01_data_prep.R")
+source("scripts/01_data_prep.R")         # inspect column names, fix rename() if needed
 
 # 4. Analyse
 source("scripts/02_temporal_analysis.R")
@@ -154,33 +131,36 @@ Go to https://doi.org/10.1371/journal.pntd.0012558 → Supporting Information �
 Save as `data/raw/tanmoy2024_suppS1.xlsx`.
 
 **TyphiNET Database:**
-Download from https://www.typhi.net/ → Data Downloads.
+Download from https://www.typhinet.org → Data Downloads.
 Save as `data/raw/TyphiNET-database.csv`.
+
+> After downloading the Tanmoy file, run `source("scripts/01_data_prep.R")` and
+> check the printed column names. Edit the `rename()` block if they differ from
+> what the script expects. The script prints guidance on first run.
 
 ---
 
 ## Repository Structure
 
 ```
-Typhoid-Fever-in-Bangladesh/
+styphi-amr-bangladesh/
 ├── data/
 │   ├── raw/                      ← Downloaded files (not committed to git)
-│   └── processed/                ← Generated .rds and .csv files
+│   └── processed/                ← Generated .rds and .csv (not committed)
 ├── scripts/
 │   ├── 00_install_packages.R
-│   ├── 01_data_prep.R            ← Aggregates raw R/S/I isolates to annual rates
-│   ├── 02_temporal_analysis.R    ← Trend regression and period summary
-│   ├── 03_visualizations.R       ← Figures 1-3 (phenotypic)
-│   └── 04_global_context.R       ← Figures 4-5 (TyphiNET genomic)
+│   ├── 01_data_prep.R            ← Aggregates raw R/S/I isolates → annual rates
+│   ├── 02_temporal_analysis.R    ← Trend regression + period summary
+│   ├── 03_visualizations.R       ← Figures 1–3 (phenotypic)
+│   └── 04_global_context.R       ← Figures 4–5 (TyphiNET genomic)
 ├── analysis/
 │   └── report.qmd                ← Quarto reproducible report
 ├── shiny/
-│   ├── app.R                     ← Interactive dashboard
-│   └── data/processed/           ← Data files for shinyapps.io deployment
+│   └── app.R                     ← Interactive dashboard
 ├── results/                      ← CSV outputs from analysis
 ├── figures/                      ← PNG figures (300 dpi)
 ├── docs/
-│   └── index.html                ← GitHub Pages (rendered Quarto report)
+│   └── index.html                ← GitHub Pages (rendered report)
 ├── training_notes.md
 ├── renv.lock                     ← Reproducible R environment
 └── README.md
@@ -192,10 +172,10 @@ Typhoid-Fever-in-Bangladesh/
 
 | Resource | Link |
 |----------|------|
-| Interactive Dashboard | [shinyapps.io](https://u3j9z9-md0abrar-faiyaj.shinyapps.io/typhoid-amr-bangladesh/) |
-| Full Quarto Report | [GitHub Pages](https://mdabrarfaiyaj.github.io/Typhoid-Fever-in-Bangladesh/) |
-| Primary Data | [Tanmoy et al. 2024, PLOS NTDs](https://doi.org/10.1371/journal.pntd.0012558) |
-| Genomic Data | [TyphiNET Database](https://www.typhi.net/) |
+| 📊 Interactive Dashboard | [Posit Cloud](YOUR_POSIT_CLOUD_URL) |
+| 📄 Full Quarto Report | [GitHub Pages](YOUR_GITHUB_PAGES_URL) |
+| 🧬 Primary Data | [Tanmoy et al. 2024, PLOS NTDs](https://doi.org/10.1371/journal.pntd.0012558) |
+| 🌍 Genomic Data | [TyphiNET Database](https://www.typhinet.org) |
 
 ---
 
@@ -208,7 +188,7 @@ Typhoid-Fever-in-Bangladesh/
 
 2. TyphiNET Database. Wellcome Sanger Institute and global collaborators.
    Whole-genome sequencing surveillance of *Salmonella* Typhi.
-   https://www.typhi.net/
+   https://www.typhinet.org
 
 3. Tanmoy AM et al. (2018). *Salmonella* Typhi in Bangladesh: Genomic Diversity
    and Antimicrobial Resistance. *mBio* 9(6): e02112-18.
@@ -216,3 +196,6 @@ Typhoid-Fever-in-Bangladesh/
 4. Government of Bangladesh, UNICEF, Gavi, WHO (2025). Bangladesh launches
    nationwide Typhoid Conjugate Vaccine campaign to protect 50 million children.
    Campaign launch: 12 October 2025.
+
+---
+

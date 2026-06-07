@@ -234,7 +234,8 @@ Full code, renv lockfile, and training notes:
 
 Live report: `https://mdabrarfaiyaj.github.io/Typhoid-Fever-in-Bangladesh`
 
-Interactive dashboard: `YOUR_SHINYAPPS_URL`
+Interactive dashboard: `https://u3j9z9-md0abrar-faiyaj.shinyapps.io/typhoid-amr-bangladesh/`
+
 
 ```{r session-info}
 sessionInfo()
