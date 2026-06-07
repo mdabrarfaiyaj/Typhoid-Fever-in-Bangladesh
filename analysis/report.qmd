@@ -252,9 +252,9 @@ sessionInfo()
    Whole-genome sequencing surveillance of *Salmonella* Typhi.
    https://www.typhinet.org
 
-3. Tanmoy AM et al. (2018). *Salmonella* Typhi in Bangladesh: Genomic Diversity
-   and Antimicrobial Resistance. *mBio* 9(6): e02112-18.
+3. Tanmoy AM et al. (2018). *Salmonella enterica* Serovar Typhi in Bangladesh:    Exploration of Genomic Diversity and Antimicrobial Resistance. 
+   *mBio* 9:10.1128/mbio.02112-18. https://doi.org/10.1128/mbio.02112-18
 
-4. Government of Bangladesh, UNICEF, Gavi, WHO (2025). Bangladesh launches
-   nationwide Typhoid Conjugate Vaccine campaign to protect 50 million children.
-   Campaign launch: 12 October 2025.
+4. Government of Bangladesh, UNICEF, Gavi, WHO (2025).Bangladesh launches        nationwide Typhoid Conjugate Vaccine campaign to protect 50 million children.    Campaign launch: 12 October 2025. 
+   https://www.unicef.org/bangladesh/en/press-releases/bangladesh-launches-nationwide-typhoid-conjugate-vaccine-campaign-protect-50-million
+   
