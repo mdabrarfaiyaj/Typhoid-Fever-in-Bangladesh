@@ -1,7 +1,7 @@
 # Antimicrobial Resistance Trends in *Salmonella* Typhi, Bangladesh (1999–2022)
 
 [![R](https://img.shields.io/badge/R-4.3+-276DC3?logo=r)](https://www.r-project.org/)
-[![Quarto](https://img.shields.io/badge/Report-Quarto-blue)](https://mdabrarfaiyaj.github.io/Typoid-Fever-in-Bangladesh/)
+[![Quarto](https://img.shields.io/badge/Report-Quarto-blue)](https://mdabrarfaiyaj.github.io/Typhoid-Fever-in-Bangladesh/)
 [![Shiny](https://img.shields.io/badge/Dashboard-shinyapps.io-orange)](https://u3j9z9-md0abrar-faiyaj.shinyapps.io/typhoid-amr-bangladesh/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -56,8 +56,9 @@ Both datasets are publicly available. No data is simulated or synthetic.
 
 ![Figure 1: AMR trends in S. Typhi, Bangladesh 1999–2022](figures/fig1_amr_trends.png)
 
-MDR declined from 38% (1999) to 17% (2022). Yet ciprofloxacin non-susceptibility
-sat above 90% for the **entire 24-year period** without meaningful movement.
+MDR declined from 38% (1999) to 17% (2022), after peaking above 60% in the early
+2000s. Yet ciprofloxacin non-susceptibility stayed **above 93% every year from 2005
+onward** without meaningful improvement.
 The MDR decline is real — but it reflects reduced use of drugs that were
 already failing. The drugs that replaced them are now under the same pressure.
 
@@ -121,6 +122,10 @@ All analysis in R 4.3 · tidyverse · reproducible via renv.
 
 ---
 
+📝 **Blog post:** [Typhoid in Bangladesh: Why Falling Resistance Can Still Be Bad News](https://mdabrarfaiyaj.github.io/posts/Typhoid-in-Bangladesh-Why-Falling-Resistance-Can-Still-Be-Bad-News/)
+
+---
+
 ## Reproduce This Analysis
 
 ```r
@@ -162,7 +167,7 @@ Save as `data/raw/TyphiNET-database.csv`.
 ## Repository Structure
 
 ```
-Typoid-Fever-in-Bangladesh/
+Typhoid-Fever-in-Bangladesh/
 ├── data/
 │   ├── raw/                      ← Downloaded files (not committed to git)
 │   └── processed/                ← Generated .rds and .csv files
@@ -193,7 +198,7 @@ Typoid-Fever-in-Bangladesh/
 | Resource | Link |
 |----------|------|
 | Interactive Dashboard | [shinyapps.io](https://u3j9z9-md0abrar-faiyaj.shinyapps.io/typhoid-amr-bangladesh/) |
-| Full Quarto Report | [GitHub Pages](https://mdabrarfaiyaj.github.io/Typoid-Fever-in-Bangladesh/) |
+| Full Quarto Report | [GitHub Pages](https://mdabrarfaiyaj.github.io/Typhoid-Fever-in-Bangladesh/) |
 | Primary Data | [Tanmoy et al. 2024, PLOS NTDs](https://doi.org/10.1371/journal.pntd.0012558) |
 | Genomic Data | [TyphiNET Database](https://www.typhi.net/) |
 

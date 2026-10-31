@@ -205,7 +205,7 @@ of where Posit Cloud sets the working directory.
 ## How to Reproduce Everything
 
 ```
-1. Clone: git clone https://github.com/mdabrarfaiyaj/Typoid-Fever-in-Bangladesh
+1. Clone: git clone https://github.com/mdabrarfaiyaj/Typhoid-Fever-in-Bangladesh
 
 2. Open project in RStudio (or Posit Cloud)
 
